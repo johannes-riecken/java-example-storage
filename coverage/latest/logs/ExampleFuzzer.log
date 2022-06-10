@@ -1,0 +1,89 @@
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+INFO: Synchronizing coverage IDs in /tmp/jazzer-eeqbzraqcmerumakxztnaftbjrtlnkna
+INFO: Loaded 108 hooks from com.code_intelligence.jazzer.runtime.TraceCmpHooks
+INFO: Loaded 4 hooks from com.code_intelligence.jazzer.runtime.TraceDivHooks
+INFO: Loaded 2 hooks from com.code_intelligence.jazzer.runtime.TraceIndirHooks
+INFO: Loaded 4 hooks from com.code_intelligence.jazzer.runtime.NativeLibHooks
+INFO: Loaded 8 hooks from com.code_intelligence.jazzer.sanitizers.Deserialization
+INFO: Loaded 3 hooks from com.code_intelligence.jazzer.sanitizers.ExpressionLanguageInjection
+INFO: Loaded 70 hooks from com.code_intelligence.jazzer.sanitizers.LdapInjection
+INFO: Loaded 46 hooks from com.code_intelligence.jazzer.sanitizers.NamingContextLookup
+INFO: Loaded 1 hooks from com.code_intelligence.jazzer.sanitizers.OsCommandInjection
+INFO: Loaded 48 hooks from com.code_intelligence.jazzer.sanitizers.ReflectiveCall
+INFO: Loaded 8 hooks from com.code_intelligence.jazzer.sanitizers.RegexInjection
+INFO: Loaded 16 hooks from com.code_intelligence.jazzer.sanitizers.RegexRoadblocks
+INFO: Instrumented java.util.regex.Pattern$BnM with custom hooks only (took 16 ms, size +20%)
+INFO: Instrumented java.util.regex.Pattern$BackRef with custom hooks only (took 2 ms, size +34%)
+INFO: Instrumented java.util.regex.Pattern$Branch with custom hooks only (took 3 ms, size +26%)
+INFO: Instrumented java.util.regex.Pattern$BranchConn with custom hooks only (took 1 ms, size +56%)
+INFO: Instrumented java.util.regex.Pattern$BmpCharPropertyGreedy with custom hooks only (took 1 ms, size +31%)
+INFO: Instrumented java.util.regex.Pattern$GroupCurly with custom hooks only (took 5 ms, size +34%)
+INFO: Instrumented java.util.regex.Pattern$Ques with custom hooks only (took 3 ms, size +78%)
+INFO: Instrumented java.util.regex.Pattern$Curly with custom hooks only (took 4 ms, size +50%)
+INFO: Instrumented java.util.regex.Matcher with custom hooks only (took 30 ms, size +4%)
+INFO: Instrumented java.util.regex.Pattern$Start with custom hooks only (took 3 ms, size +35%)
+INFO: Instrumented java.util.regex.Pattern$First with custom hooks only (took 1 ms, size +52%)
+INFO: Instrumented java.util.regex.Pattern$Slice with custom hooks only (took 1 ms, size +44%)
+INFO: Instrumented java.util.regex.Pattern$CharPropertyGreedy with custom hooks only (took 2 ms, size +22%)
+INFO: Instrumented java.util.regex.Pattern$BmpCharProperty with custom hooks only (took 1 ms, size +35%)
+INFO: Instrumented java.util.regex.Pattern$LineEnding with custom hooks only (took 2 ms, size +49%)
+INFO: Instrumented java.util.regex.Pattern$CharProperty with custom hooks only (took 2 ms, size +33%)
+INFO: Instrumented java.util.regex.Pattern$GroupHead with custom hooks only (took 1 ms, size +49%)
+INFO: Instrumented java.util.regex.Pattern with custom hooks only (took 79 ms, size +2%)
+INFO: Instrumented ExampleFuzzer (took 22 ms, size +67%)
+INFO: libFuzzer ignores flags that start with '--'
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 3247707389
+INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x7f7438f3b010, 0x7f7438f3b210), 
+INFO: Loaded 1 PC tables (512 PCs): 512 [0x27a0620,0x27a2620), 
+MERGE-OUTER: 5 files, 0 in the initial corpus, 0 processed earlier
+MERGE-OUTER: attempt 1
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+INFO: Synchronizing coverage IDs in /tmp/jazzer-eeqbzraqcmerumakxztnaftbjrtlnkna
+INFO: Loaded 108 hooks from com.code_intelligence.jazzer.runtime.TraceCmpHooks
+INFO: Loaded 4 hooks from com.code_intelligence.jazzer.runtime.TraceDivHooks
+INFO: Loaded 2 hooks from com.code_intelligence.jazzer.runtime.TraceIndirHooks
+INFO: Loaded 4 hooks from com.code_intelligence.jazzer.runtime.NativeLibHooks
+INFO: Loaded 8 hooks from com.code_intelligence.jazzer.sanitizers.Deserialization
+INFO: Loaded 3 hooks from com.code_intelligence.jazzer.sanitizers.ExpressionLanguageInjection
+INFO: Loaded 70 hooks from com.code_intelligence.jazzer.sanitizers.LdapInjection
+INFO: Loaded 46 hooks from com.code_intelligence.jazzer.sanitizers.NamingContextLookup
+INFO: Loaded 1 hooks from com.code_intelligence.jazzer.sanitizers.OsCommandInjection
+INFO: Loaded 48 hooks from com.code_intelligence.jazzer.sanitizers.ReflectiveCall
+INFO: Loaded 8 hooks from com.code_intelligence.jazzer.sanitizers.RegexInjection
+INFO: Loaded 16 hooks from com.code_intelligence.jazzer.sanitizers.RegexRoadblocks
+INFO: Instrumented java.util.regex.Pattern$BnM with custom hooks only (took 11 ms, size +20%)
+INFO: Instrumented java.util.regex.Pattern$BackRef with custom hooks only (took 3 ms, size +34%)
+INFO: Instrumented java.util.regex.Pattern$Branch with custom hooks only (took 7 ms, size +26%)
+INFO: Instrumented java.util.regex.Pattern$BranchConn with custom hooks only (took 1 ms, size +56%)
+INFO: Instrumented java.util.regex.Pattern$BmpCharPropertyGreedy with custom hooks only (took 2 ms, size +31%)
+INFO: Instrumented java.util.regex.Pattern$GroupCurly with custom hooks only (took 14 ms, size +34%)
+INFO: Instrumented java.util.regex.Pattern$Ques with custom hooks only (took 6 ms, size +78%)
+INFO: Instrumented java.util.regex.Pattern$Curly with custom hooks only (took 4 ms, size +50%)
+INFO: Instrumented java.util.regex.Matcher with custom hooks only (took 37 ms, size +4%)
+INFO: Instrumented java.util.regex.Pattern$Start with custom hooks only (took 2 ms, size +35%)
+INFO: Instrumented java.util.regex.Pattern$First with custom hooks only (took 3 ms, size +52%)
+INFO: Instrumented java.util.regex.Pattern$Slice with custom hooks only (took 1 ms, size +44%)
+INFO: Instrumented java.util.regex.Pattern$CharPropertyGreedy with custom hooks only (took 1 ms, size +22%)
+INFO: Instrumented java.util.regex.Pattern$BmpCharProperty with custom hooks only (took 1 ms, size +35%)
+INFO: Instrumented java.util.regex.Pattern$LineEnding with custom hooks only (took 1 ms, size +49%)
+INFO: Instrumented java.util.regex.Pattern$CharProperty with custom hooks only (took 3 ms, size +33%)
+INFO: Instrumented java.util.regex.Pattern$GroupHead with custom hooks only (took 1 ms, size +49%)
+INFO: Instrumented java.util.regex.Pattern with custom hooks only (took 112 ms, size +2%)
+INFO: Instrumented ExampleFuzzer (took 15 ms, size +67%)
+INFO: libFuzzer ignores flags that start with '--'
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 4043089087
+INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x7fc49ef2d010, 0x7fc49ef2d210), 
+INFO: Loaded 1 PC tables (512 PCs): 512 [0xaa90b0,0xaab0b0), 
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 1048576 bytes
+MERGE-INNER: using the control file '/tmp/libFuzzerTemp.Merge68.txt'
+MERGE-INNER: 5 total files; 0 processed earlier; will process 5 files now
+#1	pulse  cov: 2 ft: 2 exec/s: 0 rss: 689Mb
+#2	pulse  cov: 3 ft: 3 exec/s: 0 rss: 689Mb
+#4	pulse  cov: 5 ft: 5 exec/s: 0 rss: 689Mb
+#5	DONE   cov: 5 ft: 5 exec/s: 0 rss: 689Mb
+MERGE-OUTER: succesfull in 1 attempt(s)
+MERGE-OUTER: the control file has 578 bytes
+MERGE-OUTER: consumed 0Mb (690Mb rss) to parse the control file
+MERGE-OUTER: 4 new files with 5 new features added; 5 new coverage edges
