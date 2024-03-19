@@ -1,9 +1,10 @@
 OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
-INFO: Loaded 111 hooks from com.code_intelligence.jazzer.runtime.TraceCmpHooks
-INFO: Loaded 4 hooks from com.code_intelligence.jazzer.runtime.TraceDivHooks
+INFO: Loaded 261 hooks from com.code_intelligence.jazzer.runtime.TraceCmpHooks
+INFO: Loaded 5 hooks from com.code_intelligence.jazzer.runtime.TraceDivHooks
 INFO: Loaded 2 hooks from com.code_intelligence.jazzer.runtime.TraceIndirHooks
 INFO: Loaded 4 hooks from com.code_intelligence.jazzer.runtime.NativeLibHooks
-INFO: Loaded 8 hooks from com.code_intelligence.jazzer.sanitizers.Deserialization
+INFO: Loaded 2 hooks from com.code_intelligence.jazzer.sanitizers.ClojureLangHooks
+INFO: Loaded 5 hooks from com.code_intelligence.jazzer.sanitizers.Deserialization
 INFO: Loaded 5 hooks from com.code_intelligence.jazzer.sanitizers.ExpressionLanguageInjection
 INFO: Loaded 70 hooks from com.code_intelligence.jazzer.sanitizers.LdapInjection
 INFO: Loaded 46 hooks from com.code_intelligence.jazzer.sanitizers.NamingContextLookup
@@ -11,22 +12,29 @@ INFO: Loaded 1 hooks from com.code_intelligence.jazzer.sanitizers.OsCommandInjec
 INFO: Loaded 48 hooks from com.code_intelligence.jazzer.sanitizers.ReflectiveCall
 INFO: Loaded 8 hooks from com.code_intelligence.jazzer.sanitizers.RegexInjection
 INFO: Loaded 16 hooks from com.code_intelligence.jazzer.sanitizers.RegexRoadblocks
+INFO: Loaded 12 hooks from com.code_intelligence.jazzer.sanitizers.ScriptEngineInjection
+INFO: Loaded 3 hooks from com.code_intelligence.jazzer.sanitizers.ServerSideRequestForgery
 INFO: Loaded 19 hooks from com.code_intelligence.jazzer.sanitizers.SqlInjection
-INFO: Instrumented ExampleFuzzer (took 67 ms, size +67%)
+INFO: Loaded 6 hooks from com.code_intelligence.jazzer.sanitizers.XPathInjection
+INFO: Instrumented ExampleFuzzer (took 68 ms, size +67%)
+INFO: using inputs from: /github/workspace/build-out/dummy_corpus_dir_for_ExampleFuzzer
+INFO: using inputs from: /github/workspace/cifuzz-corpus/ExampleFuzzer
+INFO: found LLVMFuzzerCustomMutator (0x73c33ef48390). Disabling -len_control by default.
 INFO: libFuzzer ignores flags that start with '--'
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 1007277395
-INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x7f300913d010, 0x7f300913d210), 
-INFO: Loaded 1 PC tables (512 PCs): 512 [0x23df260,0x23e1260), 
+INFO: Seed: 2351217138
+INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x5b2f980a8020, 0x5b2f980a8220), 
+INFO: Loaded 1 PC tables (512 PCs): 512 [0x5b2f98077fe0,0x5b2f98079fe0), 
 MERGE-OUTER: 4 files, 0 in the initial corpus, 0 processed earlier
 MERGE-OUTER: attempt 1
 OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
-INFO: Synchronizing coverage IDs in /tmp/jazzer-10437369524087367758
-INFO: Loaded 111 hooks from com.code_intelligence.jazzer.runtime.TraceCmpHooks
-INFO: Loaded 4 hooks from com.code_intelligence.jazzer.runtime.TraceDivHooks
+INFO: Synchronizing coverage IDs in /tmp/jazzer-9362307722979289326
+INFO: Loaded 261 hooks from com.code_intelligence.jazzer.runtime.TraceCmpHooks
+INFO: Loaded 5 hooks from com.code_intelligence.jazzer.runtime.TraceDivHooks
 INFO: Loaded 2 hooks from com.code_intelligence.jazzer.runtime.TraceIndirHooks
 INFO: Loaded 4 hooks from com.code_intelligence.jazzer.runtime.NativeLibHooks
-INFO: Loaded 8 hooks from com.code_intelligence.jazzer.sanitizers.Deserialization
+INFO: Loaded 2 hooks from com.code_intelligence.jazzer.sanitizers.ClojureLangHooks
+INFO: Loaded 5 hooks from com.code_intelligence.jazzer.sanitizers.Deserialization
 INFO: Loaded 5 hooks from com.code_intelligence.jazzer.sanitizers.ExpressionLanguageInjection
 INFO: Loaded 70 hooks from com.code_intelligence.jazzer.sanitizers.LdapInjection
 INFO: Loaded 46 hooks from com.code_intelligence.jazzer.sanitizers.NamingContextLookup
@@ -34,21 +42,27 @@ INFO: Loaded 1 hooks from com.code_intelligence.jazzer.sanitizers.OsCommandInjec
 INFO: Loaded 48 hooks from com.code_intelligence.jazzer.sanitizers.ReflectiveCall
 INFO: Loaded 8 hooks from com.code_intelligence.jazzer.sanitizers.RegexInjection
 INFO: Loaded 16 hooks from com.code_intelligence.jazzer.sanitizers.RegexRoadblocks
+INFO: Loaded 12 hooks from com.code_intelligence.jazzer.sanitizers.ScriptEngineInjection
+INFO: Loaded 3 hooks from com.code_intelligence.jazzer.sanitizers.ServerSideRequestForgery
 INFO: Loaded 19 hooks from com.code_intelligence.jazzer.sanitizers.SqlInjection
-INFO: Instrumented ExampleFuzzer (took 61 ms, size +67%)
+INFO: Loaded 6 hooks from com.code_intelligence.jazzer.sanitizers.XPathInjection
+INFO: Instrumented ExampleFuzzer (took 124 ms, size +67%)
+INFO: using inputs from: /github/workspace/build-out/dummy_corpus_dir_for_ExampleFuzzer
+INFO: using inputs from: /github/workspace/cifuzz-corpus/ExampleFuzzer
+INFO: found LLVMFuzzerCustomMutator (0x755d0d3b4390). Disabling -len_control by default.
 INFO: libFuzzer ignores flags that start with '--'
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 1510378841
-INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x7f604a8fd010, 0x7f604a8fd210), 
-INFO: Loaded 1 PC tables (512 PCs): 512 [0x8c6730,0x8c8730), 
+INFO: Seed: 1102726548
+INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x755d3045d440, 0x755d3045d640), 
+INFO: Loaded 1 PC tables (512 PCs): 512 [0x755d304054a0,0x755d304074a0), 
 INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 1048576 bytes
-MERGE-INNER: using the control file '/tmp/libFuzzerTemp.Merge68.txt'
+MERGE-INNER: using the control file '/tmp/libFuzzerTemp.Merge74.txt'
 MERGE-INNER: 4 total files; 0 processed earlier; will process 4 files now
-#1	pulse  cov: 2 ft: 2 exec/s: 0 rss: 652Mb
-#2	pulse  cov: 3 ft: 3 exec/s: 0 rss: 652Mb
-#4	pulse  cov: 5 ft: 5 exec/s: 0 rss: 652Mb
-#4	DONE   cov: 5 ft: 5 exec/s: 0 rss: 652Mb
+#1	pulse  cov: 2 ft: 2 exec/s: 0 rss: 817Mb
+#2	pulse  cov: 3 ft: 3 exec/s: 0 rss: 817Mb
+#4	pulse  cov: 5 ft: 5 exec/s: 0 rss: 817Mb
+#4	DONE   cov: 5 ft: 5 exec/s: 0 rss: 817Mb
 MERGE-OUTER: successful in 1 attempt(s)
 MERGE-OUTER: the control file has 468 bytes
-MERGE-OUTER: consumed 0Mb (639Mb rss) to parse the control file
+MERGE-OUTER: consumed 0Mb (826Mb rss) to parse the control file
 MERGE-OUTER: 4 new files with 5 new features added; 5 new coverage edges
